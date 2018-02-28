@@ -1,0 +1,15 @@
+[submodule "dist/kirby"]
+	path = dist/kirby
+	url = https://github.com/getkirby/kirby.git
+[submodule "dist/panel"]
+	path = dist/panel
+	url = https://github.com/getkirby/panel.git
+[submodule "src/bin/site/fields/subpagelist"]
+	path = src/bin/site/fields/subpagelist
+	url = https://github.com/flokosiol/kirby-subpagelist.git
+[submodule "src/bin/site/fields/builder"]
+	path = src/bin/site/fields/builder
+	url = https://github.com/TimOetting/kirby-builder.git
+[submodule "src/bin/site/fields/markdown"]
+	path = src/bin/site/fields/markdown
+	url = https://github.com/JonasDoebertin/kirby-visual-markdown.git

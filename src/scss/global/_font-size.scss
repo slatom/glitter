@@ -1,0 +1,10 @@
+
+@mixin fontSizeMedium() {
+    font-size: $fontSizeMedium;
+    line-height: $lineHeightMedium;
+}
+
+@mixin fontSizeCopy() {
+    font-size: $fontSizeCopy;
+    line-height: $lineHeightCopy;
+}

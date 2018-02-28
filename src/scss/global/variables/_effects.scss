@@ -1,0 +1,34 @@
+$easeDuration: 0.1s;
+
+$easeDuration05: $easeDuration * 0.5;
+
+$easeDuration2: $easeDuration * 2;
+$easeDuration3: $easeDuration * 3;
+$easeDuration4: $easeDuration * 4;
+$easeDuration5: $easeDuration * 5;
+$easeDuration8: $easeDuration * 8;
+
+$easeDuration10: $easeDuration * 10;
+$easeDuration15: $easeDuration * 15;
+$easeDuration20: $easeDuration * 20;
+$easeDuration50: $easeDuration * 50;
+
+$easeOutQuad: cubic-bezier(0.250, 0.460, 0.450, 0.940); /* easeOutQuad */
+$easeInOutQuad: cubic-bezier(0.455, 0.030, 0.515, 0.955); /* easeInOutQuad */
+$easeInQuad: cubic-bezier(0.550,  0.085, 0.680, 0.530); /* easeInQuad */
+$easeLinear: linear;
+
+//basic ease function
+$easeFunction: $easeOutQuad;
+$easeOut: $easeOutQuad;
+$easeInOut: $easeInOutQuad;
+$easeIn: $easeInQuad;
+$easeNone: $easeLinear;
+
+$easeDurationBase: $easeDuration5;
+$easeDurationBaseShort: $easeDuration5 * 0.5;
+
+$easeDurationIntroLong: 3s;
+
+$contastBase: 150%;
+$brightnessBase: 150%;

@@ -1,0 +1,35 @@
+.exp-rectButton {
+	display: block;
+	z-index: 100;
+
+	background-color: transparent;
+	color: $colorText;
+	padding: $baseMargin05 * 3;
+	padding-top: $baseMargin;
+	padding-bottom: $baseMargin;
+
+	display: inline-block;
+
+	min-width: $baseSize * 10;
+
+	text-align: center;
+	box-sizing: border-box;
+
+	@include ease(border);
+	border: 1px solid $colorAltBackgroundTransparent;
+
+
+	&:focus,
+	html.mobile &:active,
+	html:not(.mobile) &:hover {
+		border: 1px solid $colorText;
+		.exp-rectButton__text {
+			color: $colorAltBackgroundTransparent;
+		}
+	}
+
+	&__text {
+		@include ease(color);
+		display: inline-block;
+	}
+}

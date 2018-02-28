@@ -1,0 +1,12 @@
+@mixin ease($properties: all, $duration: $easeDurationBaseShort, $easing: $easeFunction, $delay: 0s) {
+	$i: 0;
+	$result: '';
+	@each $property in $properties {
+		@if ($i > 0) {
+			$result: $result + ', ';
+		}
+		$result: $result + $property + ' ' + $duration + ' ' + $easing + ' ' + $delay;
+		$i: $i + 1;
+	}
+	transition: unquote($result);
+}

@@ -1,0 +1,24 @@
+{
+	"parserOptions": {
+		"ecmaVersion": 6,
+		"sourceType": "module",
+		"ecmaFeatures": {
+			"experimentalObjectRestSpread": true,
+			"jsx": true
+		}
+	},
+	"globals": {
+		"CDLX": true // global app namespace
+	},
+	"env": {
+		"node": true,
+		"browser": true,
+		"commonjs": true,
+		"es6": true,
+		"jquery": true
+	},
+	"extends": "neonaut",
+	"rules": {
+		// intentionally left empty. If you need an entry here please first talk to HS or PG
+	}
+}

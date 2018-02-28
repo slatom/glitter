@@ -1,0 +1,27 @@
+@mixin center-block() {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@mixin center($way:horizontal, $position:absolute) {
+	position: $position;
+
+	@if $way == "vertical" {
+		top: 50%;
+		transform: translateY(-50%);
+	} @else if $way == "horizontal" {
+		left: 50%;
+		transform: translateX(-50%);
+	} @else if $way == "both" {
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+}
+
+@mixin center-clear() {
+	top: auto;
+	left: auto;
+	transform: none;
+}

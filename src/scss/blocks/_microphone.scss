@@ -1,0 +1,17 @@
+.exp-microphone {
+	@include center();
+	top: $baseSize * 3;
+
+	&__line {
+		width: $baseSize * 3;
+		height: 1px;
+		margin-top:  $baseMargin * 2;
+		@include center();
+		background-color: $colorAltBackgroundTransparent;
+	}
+	&__text {
+		display: block;
+		margin-top: $baseMargin * 2;
+		text-align: center;
+	}
+}

@@ -1,0 +1,10 @@
+$colorByNameBlack: #000000;
+$colorByNameWhite: #ffffff;
+$colorByNameGrey: rgba(0, 0, 0, 0.1);
+$colorByNameGreyDarker: rgba(0, 0, 0, 0.2);
+
+$colorBase: $colorByNameBlack;
+$colorText: $colorByNameWhite;
+
+$opacityColor: 0.3;
+$colorAltBackgroundTransparent: transparentize(#ffffff, 1- $opacityColor);

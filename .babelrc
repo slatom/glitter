@@ -1,0 +1,5 @@
+{
+  "presets": ["es2015", "react"],
+  "plugins": ["transform-runtime"],
+  "ignore": ["node_modules/*", "tmp/*", "vendor/*"]
+}

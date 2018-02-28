@@ -1,0 +1,15 @@
+/*------------------------------------*\
+    FONT-FACE
+\*------------------------------------*/
+@font-face {
+	font-family: "DinLight";
+	src: url('../fonts/dinlight/din-light-webfont.eot');
+	src: url('../fonts/dinlight/din-light-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/dinlight/din-light-webfont.ttf') format('truetype'), url('../fonts/dinlight/din-light-webfont.svg') format('svg'), url('../fonts/dinlight/din-light-webfont.woff') format('woff');
+	font-weight: 100;
+	font-style: normal;
+}
+
+
+@mixin sansSerif() {
+    font-family: "DinLight", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}

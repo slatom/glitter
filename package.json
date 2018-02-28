@@ -1,0 +1,39 @@
+{
+  "name": "glitter",
+  "version": "1.0.0",
+  "description": "glitter",
+  "private": true,
+  "directories": {
+    "doc": "docs"
+  },
+  "authors": [
+    "Tomasz Slawnikowski Slawnikowski@gmail.com"
+  ],
+  "devDependencies": {
+    "delegate": "^3.1.3",
+    "dom4": "^1.8.3",
+    "eslint": "^3.13.1",
+    "eslint-config-neonaut": "git+https://neonaut-intern.net/git/ESLINTCFG/#eslint-config-neonaut-v0.10.1",
+    "getusermedia": "^2.0.1",
+    "gulp": "^3.9.1",
+    "gulp-svgstore": "^6.1.0",
+    "hammerjs": "^2.0.8",
+    "neonaut-lib-gulp": "git+https://neonaut-intern.net/git/NNLIBGULP/#neonaut-lib-gulp-v0.4.1p3",
+    "screenlog": "^0.2.2",
+    "superagent": "^3.5.2",
+    "web-audio-daw": "^2.7.3"
+  },
+  "dependencies": {
+    "breakpoint": "^0.1.6",
+    "breakpoint-sass": "^2.7.1",
+    "custom-event-polyfill": "^0.3.0",
+    "dat.gui": "^0.6.1",
+    "delegate": "^3.1.3",
+    "gsap": "^1.20.2",
+    "pitchfinder": "^2.0.9",
+    "susy": "^2.2.12",
+    "three": "^0.87.1",
+    "three-bas": "^2.0.1",
+    "three-orbit-controls": "^82.1.0"
+  }
+}

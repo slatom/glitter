@@ -1,0 +1,19 @@
+.exp-footer {
+	position: absolute;
+	z-index: 10;
+	bottom: $baseMargin;
+	right: $baseMargin;
+
+	&__link {
+		@include fontSizeCopy;
+		text-decoration: none;
+		margin: 0;
+		padding: 0;
+		margin-right: $baseMargin;
+		margin-left: -4px;
+		font-weight: bold;
+	}
+	&__link:last-of-type {
+		margin-right: 0;
+	}
+}
