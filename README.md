@@ -1,1 +1,1 @@
-Threejs/BAS glitter effect audio visualizer.
+Threejs/BAS glitter audio visualizer.
