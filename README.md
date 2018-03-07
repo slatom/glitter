@@ -1,1 +1,1 @@
-Webcam glitter effect
+Threejs/BAS glitter effect audio visualizer.
